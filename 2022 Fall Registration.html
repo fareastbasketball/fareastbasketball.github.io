@@ -1,23 +1,18 @@
-<div id="registration-form">
-  <div class='fieldset'>
-    <legend>2022 Fall Registration Form</legend>
-    <form action="fareastbtl@nucleaus.com" method="post" data-validate="parsley">
-      <div class='row'>
-        <label for='firstname'>Player's First Name</label>
-	  <input type="text" placeholder="First Name" name='firstname' id='firstname' data-required="true" data-error-message="Your First Name is required">
-      </div>
-	   <label for='lastname'>Player's Last Name</label>
-	  <input type="text" placeholder="Last Name" name='lastname' id='lastname' data-required="true" data-error-message="Your last Name is required">
-      </div>
-      <div class='row'>
-        <label for="email">E-mail</label>
-        <input type="text" placeholder="E-mail"  name='email' data-required="true" data-type="email" data-error-message="Your E-mail is required">
-      </div>
-      <div class='row'>
-        <label for="cemail">Confirm your E-mail</label>
-        <input type="text" placeholder="Confirm your E-mail" name='cemail' data-required="true" data-error-message="Your E-mail must correspond">
-      </div>
-      <input type="submit" value="Register">
-    </form>
-  </div>
-</div>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
